@@ -84,7 +84,7 @@ if prompt := st.chat_input("Напиши свой ответ здесь..."):
         st.markdown(prompt)
 
     client = OpenAI(
-        base_url="https://openrouter.ai",
+        base_url="https://openrouter.ai/api/v1",
         api_key=api_key.strip(),
     )
 
